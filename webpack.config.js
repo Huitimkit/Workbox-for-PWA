@@ -21,6 +21,7 @@ module.exports = {
     }),
     new workboxPlugin({
       globDirectory: dist,
+      // 配置需要预缓存的文件
       globPatterns: ['**/*.{html,js}'],
       swSrc: './src/sw.js',
       swDest: path.join(dist, 'sw.js')
