@@ -23,13 +23,7 @@ module.exports = {
       globDirectory: dist,
       globPatterns: ['**/*.{html,js}'],
       swSrc: './src/sw.js',
-      swDest: path.join(dist, 'sw.js'),
-      runtimeCaching: [
-        {
-          urlPattern: new RegExp('https://hacker-news.firebaseio.com'),
-          handler: 'staleWhileRevalidate'
-        }
-      ]
+      swDest: path.join(dist, 'sw.js')
     })
   ]
 };
