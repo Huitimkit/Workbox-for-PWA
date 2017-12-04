@@ -5,14 +5,14 @@
 ## Workbox
 Workbox既是是一个库也是一个构建工具，使用Workbox可以非常方便的在用户设备上保存站点资源（静态资源、数据等）从而实现web app的离线访问，以及高性能的加载体验。
 
-Workbox主要由**workbox-webpack-plugin**和**webpack-sw**组成
+Workbox主要由**workbox-webpack-plugin**和**workbox-sw**组成
 
 ## 项目配置
-- 添加**workbox-webpack-plugin**、**webpack-sw**两个包
+- 添加**workbox-webpack-plugin**、**workbox-sw**两个包
 ```
 npm install workbox-webpack-plugin --save-dev
 
-npm install webpack-sw --save
+npm install workbox-sw --save
 ```
 
 - 创建sw.js
