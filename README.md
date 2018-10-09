@@ -79,3 +79,5 @@ function init() {
 [https://developers.google.com/web/tools/workbox/overview](https://developers.google.com/web/tools/workbox/overview)
 
 [https://developers.google.com/web/tools/workbox/get-started/webpack](https://developers.google.com/web/tools/workbox/get-started/webpack)
+
+[http://taobaofed.org/blog/2018/08/08/workbox3/](http://taobaofed.org/blog/2018/08/08/workbox3/)
